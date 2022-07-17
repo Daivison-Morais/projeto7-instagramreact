@@ -223,7 +223,7 @@
     align-items: center;
   }
  .curtiu{
-  z-index: 50;
+  z-index:4;
   width: 25px;
   height: 25px;
   margin-top: 11px;
