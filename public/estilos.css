@@ -1,0 +1,530 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  html {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .logoinstagramsozinha {
+    display: none;
+  }
+  
+  .topo {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    background-color: #fafafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .iconeinstagram {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 50px;
+  }
+  .iconedoinstagram {
+    width: 20px;
+    height: 20px;
+  }
+  .logoinstagram {
+    margin-top: 7px;
+    margin-right: 90px;
+    width: 103px;
+    height: 29px;
+  }
+  .barrinhavertical {
+    width: 1px;
+    height: 22px;
+    margin-left: 14px;
+    margin-right: 10px;
+    background-color: #dbdbdb;
+  }
+  .barradepesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 28px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  .pesquisa {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+  .quatroicones {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-right: 22px;
+  }
+  .icone1 {
+    width: 18px;
+    height: 18px;
+    margin-right: 28.5px;
+  }
+  .icone2 {
+    width: 18px;
+    height: 18px;
+    margin-right: 28.5px;
+  }
+  .icone3 {
+    width: 18px;
+    height: 18px;
+    margin-right: 28.5px;
+  }
+  .icone4 {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .barrahorizontal {
+    z-index: 3;
+    margin-top: 54px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 34px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .blocostatus {
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 118px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+  .caixastatus {
+    position: relative;
+  }
+  .bordacolorida {
+    margin-left: 14px;
+    width: 66px;
+    height: 66px;
+  }
+  
+  .foto1 {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    left: 19.45px;
+    bottom: 26.6px;
+  }
+  .foto2 {
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 583px;
+    bottom: 32px;
+  }
+  .textostatus {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 19px;
+    margin-left: 12px;
+    font-size: 12px;
+  }
+  
+  /* ++++++++++++++++++++++++++++++ post com imagem*/
+  .blocovideo {
+    z-index: 1;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    width: 614px;
+    overflow: hidden;
+  }
+  .topovideo {
+    font-family: "Roboto", sans-serif;
+    margin-left: 1px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    width: 614px;
+    height: 61px;
+  }
+  .img1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-bottom: 14px;
+  }
+  .meowed {
+    width: 109px;
+    height: 21px;
+    margin-left: 15px;
+    margin-right: 405px;
+    font-weight: bold;
+  }
+  .trespontos {
+    width: 25px;
+    height: 15px;
+  }
+  
+  .posimagem {
+    font-family: "Roboto", sans-serif;
+    margin-left: 1px;
+    width: 614px;
+    height: 73px;
+  }
+  .fileira1 {
+    display: flex;
+    margin-left: 18px;
+    width: 87px;
+    justify-content: space-between;
+  }
+  .fileira1 div {
+    align-items: center;
+    margin-top: 12px;
+    width: 22px;
+    height: 19px;
+  }
+  .displayfileira1 {
+    display: flex;
+    align-items: center;
+  }
+  .ultimoicone {
+    margin-left: 480px;
+    margin-top: 12px;
+    width: 22px;
+    height: 19px;
+  }
+  .fileira2 {
+    width: 612px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .imgposimagem {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  .displayfileira2 {
+    display: flex;
+  }
+  .respondeai {
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+    font-weight: bold;
+  }
+  
+  .outras {
+    font-weight: bold;
+    margin-left: 5.5px;
+  }
+  .postinformacao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 89px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .coluna2 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+    margin-left: 23px;
+    width: 50%;
+  }
+  .foto1coluna2 {
+    margin-right: 17px;
+    margin-bottom: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  .displayfototexto {
+    display: flex;
+  }
+  .textonegrito {
+    font-weight: bold;
+  }
+  .textocoluna2 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 14px;
+  }
+  .catana {
+    font-family: "Roboto", sans-serif;
+    color: #8e8e8e;
+  }
+  .displaysugtud {
+    display: flex;
+  }
+  .textosugestao {
+    font-family: "Roboto", sans-serif;
+    min-width: auto;
+    height: 15px;
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  
+  .vertudo {
+    font-family: "Roboto", sans-serif;
+    margin-left: 120px;
+    color: black;
+  }
+  .displaypossugestoes {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+  }
+  .imgsugestoes {
+    width: 32px;
+    height: 32px;
+  }
+  .textosdassugestoes {
+    font-family: "Roboto", sans-serif;
+    margin-left: 11px;
+    width: 148px;
+  }
+  .txt1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 126px;
+    height: 14px;
+    font-size: 14px;
+  }
+  .txt2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  .txt3 {
+    font-family: "Roboto", sans-serif;
+    margin-left: 50px;
+    width: 36px;
+    height: 11px;
+    font-size: 12px;
+    color: #139ef2;
+  }
+  .txt2ajuste {
+    font-family: "Roboto", sans-serif;
+    margin-right: 48px;
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  .textofim {
+    margin-top: 33px;
+    width: 300px;
+    height: 42px;
+    color: #c7c7c7;
+    font-size: 11px;
+  }
+  .textofim2 {
+    margin-top: 18px;
+    width: 300px;
+    height: 42px;
+    color: #c7c7c7;
+    font-size: 11px;
+  }
+  .quatroicones {
+    margin-right: 200px;
+  }
+  .displaybotoes {
+    display: none;
+  }
+  
+  @media (max-width: 935px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .topo {
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 54px;
+      background-color: #fafafa;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+  
+    .quatroicones {
+      margin-right: 10px;
+    }
+    .coluna1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0px;
+      width: 50%;
+    }
+  
+    .coluna2 {
+      display: none;
+    }
+    .iconeinstagram {
+      display: none;
+    }
+    .iconeinstagram {
+      align-items: center;
+      display: flex;
+      margin-left: 21.5px;
+      width: 225px;
+      margin-right: 0px;
+    }
+    .barradepesquisa {
+      display: none;
+    }
+    .barradepesquisa {
+      display: flex;
+      align-items: center;
+      width: 215px;
+      height: 28px;
+      border-style: solid;
+      border-radius: 3px;
+      border-color: #dbdbdb;
+      border-width: 1px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      margin-right: 25px;
+    }
+    .postinformacao {
+      display: none;
+    }
+    .postinformacao {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 614px) {
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .iconeinstagram{
+      width: 50px;
+    }
+    .topovideo {
+      width: 100%;
+    }
+    .postimagem {
+      width: 100%;
+    }
+    .blocovideo {
+      width: 100%;
+    }
+    .topo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logoinstagram {
+      display: none;
+    }
+
+    .coluna1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-right: 0px;
+    }
+    .quatroicones {
+      margin-right: 0px;
+      width: 35px;
+    }
+    .barrinhavertical {
+      display: none;
+    }
+  
+    .barradepesquisa {
+      display: none;
+    }
+  
+    .icone1 {
+      margin-left: 0px;
+    }
+    .icone2 {
+      display: none;
+    }
+    .icone3 {
+      display: none;
+    }
+    .icone4 {
+      display: none;
+    }
+    .postinformacao {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    .blocostatus {
+      width: 614px;
+    }
+    .displaybotoes {
+      z-index: 4;
+      background-color: #dbdbdb;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 54px;
+      position: fixed;
+      bottom: 0px;
+    }
+    .bot1 {
+      width: 18px;
+      height: 18px;
+    }
+    .botesquerdo {
+      margin-left: 20px;
+    }
+    .botdireito {
+      margin-right: 20px;
+    }
+    .logoinstagramsozinha {
+      display: flex;
+      z-index: 4;
+      margin-top: 7px;
+      width: 103px;
+      height: 29px;
+    }
+  }
+  
