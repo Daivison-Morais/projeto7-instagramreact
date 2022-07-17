@@ -13,19 +13,21 @@ function ItemSugestao(props){
     );
 }
 
-function Displaypossugestoes (){
+function Displaypossugestoes() {
+
+    const lstobj = [
+        { imgprinc: "./img/badvibesmemes 1.png", thepeople: "bad.vibes.memes", infseguir: "Segue voçê" },
+        { imgprinc: "./img/chibirdart 1.png", thepeople: "chibirdart", infseguir: "Segue voçê" },
+        { imgprinc: "./img/razoesparaacreditar 1.png", thepeople: "razoesparaacreditar", infseguir: "Segue voçê" },
+        { imgprinc: "./img/adorableanimals 1.png", thepeople: "adorable_animals", infseguir: "novo no instagram" },
+        { imgprinc: "./img/smallcutecats 1.png", thepeople: "smallcutecats", infseguir: "segue voçê" }
+    ]
+
     return (
         <div>
-            <ItemSugestao  imgprinc="./img/badvibesmemes 1.png" thepeople="bad.vibes.memes" infseguir="Segue voçê" />
-
-            <ItemSugestao  imgprinc="./img/chibirdart 1.png" thepeople="chibirdart" infseguir="Segue voçê" />
-
-            <ItemSugestao  imgprinc="./img/razoesparaacreditar 1.png" thepeople="razoesparaacreditar" infseguir="Segue voçê" />
-
-            <ItemSugestao  imgprinc="./img/adorableanimals 1.png" thepeople="adorable_animals" infseguir="novo no instagram" />
-            
-            <ItemSugestao  imgprinc="./img/smallcutecats 1.png" thepeople="smallcutecats" infseguir="segue voçê" />
-
+            {lstobj.map(item => {
+                return <ItemSugestao imgprinc={item.imgprinc} thepeople={item.thepeople} infseguir={item.infseguir} />
+            })}
         </div>
     );
 }

@@ -7,13 +7,18 @@ function ItemBotoes(props) {
 }
 
 function Displaybotoes() {
+
+    const newlst = [
+        {class: "bot1 botesquerdo", src: "./img/home 1.png"},
+        {class: "bot1", src: "./img/search-outline 1.png"},
+        {class: "bot1", src: "./img/add-circle-outline 1.png"},
+        {class: "bot1", src: "./img/heart-outline 1.png"},
+        {class: "bot1 botdireito", src: "./img/person-outline 1.png"}
+    ]
+
     return (
         <div class="displaybotoes">
-            <ItemBotoes class="bot1 botesquerdo" src="./img/home 1.png"/>
-            <ItemBotoes class="bot1" src="./img/search-outline 1.png"/>
-            <ItemBotoes class="bot1" src="./img/add-circle-outline 1.png"/>
-            <ItemBotoes class="bot1" src="./img/heart-outline 1.png"/>
-            <ItemBotoes class="bot1 botdireito"src="./img/person-outline 1.png"/>
+            {newlst.map(item => {return <ItemBotoes class={item.class} src={item.src}/>})}
         </div>
     );
 

@@ -6,6 +6,14 @@ function IconesItem(props){
 
 }
 function Topo (){
+
+    const newitens = [
+        {class: "icone1", src: "./img/paper-plane-outline 2.png"},
+        {class:"icone2", src:"./img/compass-outline 1.png"},
+        {class:"icone3", src:"./img/heart-outline 1.png"},
+        {class: "icone4", src: "./img/person-outline 1.png"}
+    ] 
+
     return (
         <div class="topo">
             <div class="iconeinstagram">
@@ -18,12 +26,9 @@ function Topo (){
                 <div class="pesquisa">Pesquisar</div>
             </div>
             <div class="quatroicones">
-                <IconesItem class="icone1" src="./img/paper-plane-outline 2.png"/>
-                <IconesItem class="icone2" src="./img/compass-outline 1.png"/>
-                <IconesItem class="icone3" src="./img/heart-outline 1.png"/>
-                <IconesItem class="icone4" src="./img/person-outline 1.png"/>
-
+                {newitens.map(item => {return <IconesItem class={item.class} src={item .src}/>}) } 
             </div>
+            <div class="barrahorizontal"></div>
         </div>
     );
   }
